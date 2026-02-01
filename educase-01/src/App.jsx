@@ -1,10 +1,13 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Welcome from "./pages/welcome";
+
 import Register from "./pages/Register";
 import Login from "./pages/Login";
 import Account from "./pages/Account";
 import "./index.css";
+import Welcome from "./pages/Welcome";
+
+
 
 function App() {
   return (
